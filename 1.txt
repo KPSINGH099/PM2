@@ -1,0 +1,13 @@
+Process-manager—load balancer
+Restart server---falty parameter is passed
+Terminal log
+
+List all pods---pm2 list
+Check logs ---pm2 logs <id/name>
+Stop –app-pm2 stop <id>
+Start-pm2 star <id/name>
+Pm2 restart
+Pm2 kill
+Pm2 kill <id/name>
+Change name—pm2 start app.js –name=newname
+Pm2 ecosystem ---to generate file
