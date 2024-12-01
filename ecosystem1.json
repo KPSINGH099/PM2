@@ -1,0 +1,31 @@
+{
+    "apps": [
+      {
+        "name": "app-sr1",
+        "script": "sr1/index.js",
+        "env": {
+          "APP_ENV": "hello"  
+        },
+        "env_production": {
+          "APP_ENV": "prod"  
+        },
+        "env_staging": {
+          "APP_ENV": "staging"  
+        }
+      },
+      {
+        "name": "app-sr2",
+        "script": "sr2/index.js",
+        "env": {
+          "APP_ENV": "world"  
+        },
+        "env_production": {
+          "APP_ENV": "prod"  
+        },
+        "env_staging": {
+          "APP_ENV": "staging"  
+        }
+      }
+    ]
+  }
+  
